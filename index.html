@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Government law college</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+    <div class="w3-top"></div>
+    <div class="w3-container w3-center w3-opacity w3-padding-8">
+        <h1 class="w3-margin w3-xlarge w3-left">GOVERNMENT LAW COLLEGE - Madurai</h1>
+    </div>
+<!-- Navbar -->
+
+  <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">ABOUT US</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">ACADEMICS</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">ADMISSION</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">STUDENT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">STAFF</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GALLERY</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CONTACT</a>
+  </div>
+
+ 
+
+  
+</div>
+
+
+<div class="w3-content w3-display-container">
+    <img class="mySlides" src="https://glcmadurai.ac.in/wp-content/uploads/2021/10/Group-Photo-2.jpg" style="width:100%">
+    <img class="mySlides" src="https://glcmadurai.ac.in/wp-content/uploads/2021/01/college-front-view-edit.jpg" style="width:100%">
+    <img class="mySlides" src="https://glcmadurai.ac.in/wp-content/uploads/2021/10/Group-Photo-3.jpg" style="width:100%">
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    </div>
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " w3-white";
+  }
+  </script>
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      
+        <h1>Prof. Dr. S.M.Balakrishnan<br>
+            Principal’s Message</h1>
+        <h5 class="w3-padding-32">Government Law College, Madurai epitomises the lofty ideals of a healthy institution such as knowledge, research, human values, discipline and social audit, where freedom of thought and expression transcends infinity as we strive towards the Constitutional goal of achieving an egalitarian society through quality legal education and social engineering. This institution is powered by intellect and driven by values.
+    
+            Established in the year 1974 and affiliated to the Tamil Nadu Dr. Ambedkar Law University, GLC Madurai is a pioneer institution catering to the needs of the southern districts of Tamil Nadu. It offers B.A.LL.B. Integrated degree program (five years), LL.B. degree program (three years) and LL.M. degree program (two years) in ‘Property Law’ and ‘International Law and Justice’.
+            
+            Over the years, our institution has produced eminent jurists, erudite scholars, impeccable judges, socially responsible lawyers, intelligent academicians, politicians and bureaucrats with integrity. This institution boasts of a robust legal education system with law teachers of high caliber who dedicate themselves to the welfare of the students and are highly motivated to prepare our students for trans-national practice. This college has a well-equipped library, e-zone and wonderful moot club, apart from a vibrant sports association, National Service Scheme and Youth Red Cross.
+            
+            A day in this institution begins with opportunity and ends with achievement.</h5>
+  
+      
+    </div>
+  </div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
